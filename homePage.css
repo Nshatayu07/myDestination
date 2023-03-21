@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    /* height: 100%; */
+}
+
+.topnav a:hover {
+    background-color: #cecece;
+    color: black;
+    transition: 1s;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav .name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    font-weight: 900;
+    padding-left: 2rem;
+}
+
+.topnav-right {
+    float: right;
+    padding-left: 20px;
+}
+
+img{
+    width: 100%;
+    height:auto;
+    opacity: 0.1;
+}
+
+.page{
+    position: relative;
+    text-align: center;
+}
+
+.content{
+    position: absolute;
+    top: 10%;
+    /* left: 36%; */
+}
+
+.head{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.headText{
+    padding: 5px 10rem;
+    padding-bottom: 50px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enter{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40rem;
+}
+
+.enterHead{
+    padding-top: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.enterInfo{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 0px 50px;
+    /* width: 150px; */
+}
+
+.info{
+    padding: 15px 2px;
+    font-size: large;
+    font-weight:lighter;
+    border: 1.5px solid black;
+    margin: 30px 50px;
+    width:150px;
+    border-radius: 10px;
+}
+
+.arrow{
+    font-size: 5rem;
+    height: 120px;
+}
+
+.but{
+    margin-bottom: 20px;
+}
+
+.but a{
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: large;    
+}
+
+
